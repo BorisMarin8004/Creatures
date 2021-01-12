@@ -5,7 +5,7 @@
 
 <a href="https://docs.google.com/document/d/1L2OcCAYNrijN1h8hJ2qKSDfkdRiHjrCt8w2-AfjPVww/edit?usp=sharing">Link to the google doc with test cases</a>
 
-#Sample run of the program 
+# Sample run of the program 
 
 [![Watch the video](https://img.youtube.com/vi/VmtzWwNi0J8/maxresdefault.jpg)](https://youtu.be/VmtzWwNi0J8)
 

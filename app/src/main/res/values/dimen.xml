@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="creatureListWidth">250dp</dimen>
+    <dimen name="creatureListWidthFightAct">198dp</dimen>
+    <dimen name="creatureListHeight">420dp</dimen>
+</resources>

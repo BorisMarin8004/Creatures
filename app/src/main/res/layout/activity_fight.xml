@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.FightActivity"
+    >
+
+    <TextView
+        android:id="@+id/fight"
+        android:text="@string/fight"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/spacingVert"
+        />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            style="@style/spacingVert"
+            >
+
+            <TextView
+                android:id="@+id/enemyName"
+                android:layout_width="@dimen/creatureListWidthFightAct"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:layout_row="0"
+                android:layout_column="1"
+                />
+
+            <ListView
+                android:id="@+id/activePlayerCreatureList"
+                android:layout_width="@dimen/creatureListWidthFightAct"
+                android:layout_height="@dimen/creatureListHeight"
+                android:layout_row="1"
+                android:layout_column="0"
+                />
+
+            <ListView
+                android:id="@+id/enemyPlayerCreatureList"
+                android:layout_width="@dimen/creatureListWidthFightAct"
+                android:layout_height="@dimen/creatureListHeight"
+                android:layout_gravity="end"
+                android:layout_row="1"
+                android:layout_column="1"
+                />
+
+        </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/spacingVert"
+        >
+
+        <Button
+            android:id="@+id/buttonToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toHome"
+            style="@style/spacingHor"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

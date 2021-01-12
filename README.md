@@ -8,5 +8,5 @@ which will allow them to manage their creatures again and create new creatures i
 
 <a href="https://docs.google.com/document/d/1L2OcCAYNrijN1h8hJ2qKSDfkdRiHjrCt8w2-AfjPVww/edit?usp=sharing">Link to the google doc with test cases</a>
 
-[![Watch the video](https://youtu.be/VmtzWwNi0J8)](https://youtu.be/VmtzWwNi0J8)
+[![Watch the video](https://img.youtube.com/vi/VmtzWwNi0J8/maxresdefault.jpg)](https://youtu.be/VmtzWwNi0J8)
 
